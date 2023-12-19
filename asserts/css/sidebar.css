@@ -1,0 +1,80 @@
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out,background-color 0.5s ease;
+
+  }
+  
+  .overlay-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    border-bottom: 1px solid rgba(200, 194, 194, 0.5);
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    border-radius: 2px;
+  }
+       
+  .overlay a:hover, .overlay a:focus {
+        color: #644444;
+  }
+    
+
+  .sb-ltr-navbar{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5px 15px;
+}
+.sb-navbar-toggle-btn{
+    display: none;
+}
+.sb-navbar-logo{
+    display: inline-flex;
+    align-items: center;
+}
+.sb-navbar-title{
+    flex: 1 1 auto;
+    font-size: 17px;
+    color: var(--header-btm-clr);
+    font-weight: 700;
+    padding: 0px 7px;
+    transform: translateY(-5%);
+}
+.sb-navbar-logo img{
+    width: 36px;
+    height: 36px;
+}
+.sb-nav-items{
+  padding: 0.5rem;
+}
+.sb-nav-link{
+  padding: 5.6px 15px;
+  font-size: 15px;
+  color: #606770;
+  font-weight: 600;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.close-btn{
+  padding: 0;
+  margin: 0;
+  transform: translateY(-5px);
+}

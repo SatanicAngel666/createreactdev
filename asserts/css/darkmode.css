@@ -1,0 +1,86 @@
+
+  
+  .dark-mode .closebtn {
+      color:#f1f1f1;
+  }
+  
+  .dark-mode .closebtn:hover{
+    color: #b6b3b3;
+  }
+  
+  .dark-mode .content-container{
+      background-color: #000;
+      color: #fff;
+  }
+      
+  .dark-mode #myNav{
+    background-color: #1c1e21;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+/* Dark Mode Styles */
+
+.dark-mode .header-bottom{
+    background-color: #242526;
+}
+.dark-mode .navbar-title{
+    color: white;
+}
+.dark-mode .rtl-navbar-item a{
+    color: white;
+}
+
+.dark-mode .features-section{
+    background-color: #1c1e21;
+    color: #fff;
+}
+.dark-mode .f-title{
+    color: #fff;
+}
+.dark-mode .get-started-section{
+    background-color: #33363b;
+}
+.dark-mode .getstarted-title-h3,.getstarted-text{
+    color: #fff;
+}
+.dark-mode .maintain-section{
+    background-color: #1c1e21;;
+}
+.dark-mode .getstarted-text{
+    color: #fff;
+}
+
+.dark-mode .search-input{
+    background-color: #090A11;
+    color: #fff;
+}
+.dark-mode .search-input:hover{
+    background-color: #1c1e21;
+}
+.dark-mode .search-icon{
+    color:#fff;
+}
+
+.dark-mode .navbar-toggle-btn{
+    color: #fff;
+}
+.dark-mode .sb-navbar-title{
+    color: #fff;
+}
+.dark-mode .sb-nav-link{
+    color: #fff;
+}
+
+
+@media screen and (max-width:750px) {
+    .dark-mode .search-container {
+        background-color: #090A11; 
+    }
+}
+
